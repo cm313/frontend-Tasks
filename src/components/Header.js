@@ -5,7 +5,7 @@ import {Flex} from 'antd';
 
 const Header = () => {
   return (
-    <div class="header">
+    <div className="header">
     <ul>
         <Flex justify="end" gap="10%" align="center">
         <li>Home</li>
