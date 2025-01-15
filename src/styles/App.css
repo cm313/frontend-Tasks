@@ -1,0 +1,61 @@
+.antdButton{
+    margin: 50px;
+}
+.paragraph{
+    width: 40%;
+    margin-left: 10%;
+    border: solid 2px brown;
+    padding:2%;
+    border-radius: 10px;
+}
+.header{
+    border: 1px, solid, black;
+    padding: 10px;
+    background-color:darkslategray;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ li:hover{
+    color: bisque;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    padding-right: 20px;;
+}
+.forms{
+ margin-left: 100px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 0px) and (max-width:750px){
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+}
+
+
+@media (min-width:751px) and (max-width: 999px){
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    }
+
+    @media (min-width:1000px){
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        }
+
