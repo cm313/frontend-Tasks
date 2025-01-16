@@ -1,8 +1,8 @@
-import Header from './components/Header';
+//import Header from './components/Header';
 //import Forms from "./components/Forms";
 import "../src/styles/App.css";
-import Message from './components/Message';
-import { Calendar } from 'antd';
+import Calender from "./components/Calender";
+//import Message from './components/Message';
 
 //import LoginForm from './components/LoginForm';
 //import Layouts from './components/Layouts';
@@ -30,11 +30,11 @@ function App() {
       </div> 
      </>
      */
-    <>
+   /* <>
      <Header/>
-     <Calendar/>
      <Message/>
-     </>
+     </> */
+     <Calender/>
 }
     </div>
   );
