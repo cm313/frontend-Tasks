@@ -12,6 +12,7 @@
     "@fullcalendar/timegrid": "^6.1.15",
     "antd": "^5.23.0",
     "cra-template": "1.2.0",
+    "dayjs": "^1.11.13",
     "fullcalendar": "^6.1.15",
     "less": "^4.2.1",
     "less-loader": "^12.2.0",
